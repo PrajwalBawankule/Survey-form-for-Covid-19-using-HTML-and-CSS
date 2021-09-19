@@ -1,0 +1,99 @@
+/*Home page Styling*/
+.top-container{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 400px;
+    background-image: url("Resourceimg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .navbar{
+    text-align: left;
+    font-size: 20px;
+  }
+
+button{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+a{
+  text-decoration: none;
+}
+.texttop{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    color: white;
+  }
+.texttop h4{
+  font-family: Poppins;
+    font-size: 20px;
+  }
+  .topheading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    font-size: 5rem;
+    font-weight: 1000;
+  }
+
+.covidimg{
+  float: left;
+}
+
+.col1{
+  text-align: left;
+  padding-right: 50px;
+  font-family: Verdana;
+  font-size: 20px;
+  font-weight: 800;
+}
+.col1 h3{
+  font-size: 30px;
+}
+
+/*Survey Form styling*/
+form {
+  background-color: #fff;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px 20px;
+  box-shadow: 3px 6px 10px rgba(0, 0, 0, 0.5);
+   }
+.form-sections {
+    text-align: left;
+   margin-bottom: 25px;
+ }
+
+.form-sections label {
+  display: block;
+  margin-bottom: 10px;
+ }
+.form-sections input,.form-sections select,.form-sections textarea {
+  border: 1px solid #777;
+  border-radius: 2px;
+  font-family: inherit;
+  padding: 10px;
+  display: block;
+  width: 95%;
+ }
+.form-sections input[type="radio"],
+.form-sections input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+ }
+
+.button2 {
+  background-color: #0a1811;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 21px;
+  margin-top: 30px;
+  margin-left: 10px;
+ }
